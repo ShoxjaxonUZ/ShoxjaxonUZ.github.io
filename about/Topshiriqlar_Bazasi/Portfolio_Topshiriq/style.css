@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 850px;
+    height: 600px;
+    background: #181818;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+.img {
+    position: absolute;
+    background: url(high.png) no-repeat center;
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rang {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 600px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.h3 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 225px;
+    left: 40px;
+}
+
+.p {
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    top: 275px;
+    left: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #E1BB97;
+}
+
+.button1 {
+    position: absolute;
+    background-color: transparent;
+    font-size: 22px;
+    padding: 10px 75px 10px 75px;
+    top: 335px;
+    left: 35px;
+    border-radius: 50px;
+    border: 2px solid #E1BB97;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.h2 {
+    position: absolute;
+    width: 230px;
+    height: 35px;
+    color: white;
+    top: 120px;
+    left: 515px;
+    font-size: 34px;
+}
+
+.fa-google-plus-g {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 180px;
+    left: 530px;
+    font-size: 30px;
+    padding: 9px 5px 5px 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.fa-google-plus-g:hover {
+    border-color: #E1BB97;
+    color: #E1BB97;
+}
+
+.fa-facebook-f {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    font-size: 30px;
+    padding: 9px 5px 5px 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.fa-facebook-f:hover {
+    border-color: #E1BB97;
+    color: #E1BB97;
+}
+
+.fa-google {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 180px;
+    left: 670px;
+    font-size: 30px;
+    padding: 9px 5px 5px 9px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.fa-google:hover {
+    border-color: #E1BB97;
+    color: #E1BB97;
+}
+
+.p2 {
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    top: 250px;
+    left: 490px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+input[type="email"] {
+    position: absolute;
+    top: 300px;
+    left: 505px;
+    padding: 10px 20px 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #E1BB97;
+    background-color: transparent;
+    font-size: 12px;
+    color: white;
+    transition: all 0.3s;
+    width: 250px;
+    background: url("vector_1.png") no-repeat left;
+    background-size: 10px;
+    background-position: 10px;
+}
+
+input[type="password"] {
+    position: absolute;
+    top: 350px;
+    left: 505px;
+    margin-top: 10px;
+    padding: 10px 20px 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #E1BB97;
+    background-color: transparent;
+    font-size: 12px;
+    transition: all 0.3s;
+    color: white;
+    width: 250px;
+    background: url("vector_2.png") no-repeat left;
+    background-size: 10px;
+    background-position: 10px;
+}
+
+input[type="email"]::placeholder {
+    color: #7C6957;
+    font-size: 12px;
+}
+
+input[type="password"]::placeholder {
+    color: #7C6957;
+}
+
+.button2 {
+    width: 250px;
+    position: absolute;
+    background-color: #E1BB97;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    top: 435px;
+    left: 505px;
+    border-radius: 50px;
+    border: 2px solid #E1BB97;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: -20px;
+}
+
+.button2:hover {
+    border-color: white;
+    background-color: white;
+    color: #E1BB97;
+}
+
+.p3 {
+    position: absolute;
+    top: 490px;
+    left: 545px;
+    color: white;
+    cursor: pointer;
+    margin-top: -20px;
+}

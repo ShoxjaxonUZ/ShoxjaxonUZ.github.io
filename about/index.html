@@ -18,46 +18,148 @@
                 <h1>Akparzoda Shoxjaxon</h1>
             </nav>
         </header>
-
-
         <div class="asosiy">
             <h1>Assalomu Aleykum!</h1>
-
-
             <a href="https://sam-itcenter.uz/">HAMKOR SITE</a>
             <a href="./ASHsayt/index.html">About me</a>
             <a href="../index.html">SITE</a>
         </div>
     </section>
-    <div class="box4">
+    <div class="box4 boxes">
         <p class="p">Projects</p>
         <div>
-            <a href="projects/Register/index.html" target="_blank">
+            <a href="projects/Register/index.html" target="_blank" class="box">
                 <div>
                     <img src="images/login.jpg">
                     <h2>Login</h2>
                 </div>
             </a>
-            <a href="projects/Calculator/index.html" target="_blank">
+            <a href="projects/Calculator/index.html" target="_blank" class="box">
                 <div>
                     <img src="images/calc.jpg">
                     <h2>Calculator</h2>
                 </div>
             </a>
-            <a href="projects/topshiriq-2/index.html" target="_blank">
+            <a href="projects/topshiriq-2/index.html" target="_blank" class="box">
                 <div>
                     <img src="images/topshiriq.jpg">
                     <h2>Loading</h2>
                 </div>
             </a>
-            <a href="projects/real_topshiriq_finish/index.html" target="_blank">
+            <a href="projects/real_topshiriq_finish/index.html" target="_blank" class="box">
                 <div>
                     <img src="images/real_topshiriq.jpg">
                     <h2>Real_topshiriq</h2>
                 </div>
             </a>
+            <a href="Topshiriqlar_Bazasi/button_animatsiya/index.html" target="_blank" class="box">
+                <div>
+                    <img src="images/button.jpg">
+                    <h2>Btton Animatsiya</h2>
+                </div>
+            </a>
+            <a href="Topshiriqlar_Bazasi/HomeID/index.html" target="_blank" class="box">
+                <div>
+                    <img src="images/homeid.jpg">
+                    <h2>Home ID</h2>
+                </div>
+            </a>
+            <a href="Topshiriqlar_Bazasi/LogIn_page/index.html" target="_blank" class="box">
+                <div>
+                    <img src="images/login-page.jpg">
+                    <h2>Login Page</h2>
+                </div>
+            </a>
+            <a href="Topshiriqlar_Bazasi/Portfolio_Topshiriq/index.html" target="_blank" class="box">
+                <div>
+                    <img src="images/login-small.jpg">
+                    <h2>Login</h2>
+                </div>
+            </a>
+
         </div>
+        <div class="pagination"></div>
     </div>
+
+    <script>
+        var boxes = document.querySelector('.boxes'),
+            box = document.querySelectorAll('.box'),
+            pagination = document.querySelector('.pagination'),
+            limit = 6,
+            active = 0;
+
+        count_p = parseInt((box.length / limit) + 0.9);
+
+        function none_boxes() {
+            box.forEach(b => b.style.cssText = 'visibility: hidden;position: absolute;z-index: -1;');
+        }
+
+        none_boxes();
+
+        for (let i = 0; i < count_p; i++) {
+            const p_btn = document.createElement('p');
+            p_btn.textContent = i + 1;
+            p_btn.setAttribute('data-index', i);
+            pagination.append(p_btn);
+        }
+
+        function active_boxes() {
+            for (let i = active; i < active + limit; i++) {
+                box[i].style.cssText = 'visibility: visible;position: static;z-index: 0;';
+            }
+        }
+
+        function del_btn() {
+            p_btn.forEach(btn => {
+                btn.classList = '';
+            })
+        }
+
+
+        active_boxes();
+
+        p_btn = pagination.querySelectorAll('p');
+        p_btn[0].classList = 'active';
+
+
+        p_btn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                del_btn();
+                btn.classList = 'active';
+                active = parseInt(btn.dataset.index) * limit;
+                none_boxes();
+                active_boxes();
+            })
+        })
+
+        const name = document.querySelectorAll('#no-a');
+
+        function Mycontact() {
+            name.forEach(item => {
+                item.style.width = "150px";
+            })
+        }
+
+        const menu = document.querySelector('.navbar');
+        const hamburger = document.querySelector('.hamburger');
+        const body = document.getElementById('body');
+        const section = document.getElementById('section');
+
+        function defined() {
+            menu.style.transform = 'translateX(400px)';
+            hamburger.style.display = 'none';
+            body.style.overflowY = 'hidden';
+            section.style.filter = 'blur(5px)'
+        }
+
+        function colose() {
+            menu.style.transform = 'translateX(-50%)';
+            hamburger.style.display = 'block';
+            body.style.overflowY = 'auto';
+            body.style.backdropFilter = 'none';
+            section.style.filter = 'none'
+        }
+    </script>
 </body>
 
 </html>
