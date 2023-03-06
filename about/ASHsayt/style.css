@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    background-color: rgb(0, 21, 48);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    width: 150px;
+    height: 45px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0 0 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background: rgb(0, 21, 48);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background: #fa4659;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.sinf-1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;    
+}
+.sinf-2{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pr {
+    color: white;
+}
+
+.qwerty {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.admin {
+    width: 640px;
+    height: 950px;
+    margin-left: calc(50% - 320px);
+    margin-right: calc(50% - 320px);
+}
+
+@media screen and (max-width: 700px) {
+    .admin {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 999px;
+    }
+}
+
+.container .menu {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #e3e3e3;
+    box-shadow: 0 0 5px gray;
+}
+
+.container .menu i {
+    margin: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.container .menu ul {
+    float: right;
+    display: flex;
+    margin: 20px 0;
+}
+
+.container .menu ul li {
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.container .menu .active {
+    border: 2px solid white;
+}
+
+.container .head .box {
+    display: flex;
+    box-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.container .head .box img {
+    width: auto;
+    height: 150px;
+}
+
+.container .head .box ul {
+    margin-left: 40px;
+    border-left: 1px solid gray;
+    padding: 40px 13px;
+    line-height: 25px;
+}
+
+.container .head .box ul li {
+    color: gray;
+}
+
+.container .head .box ul li p {
+    color: black;
+}
+
+.container .body .p {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 900;
+    margin: 20px 0;
+    color: white;
+    background-color: #555;
+}
+
+.container .body .p2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #999;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin: 20px 0;
+    background-color: transparent;
+    color: black;
+    padding: 40px;
+}
+
+.container .body .box1 div {
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container .body .box1 div img {
+    width: auto;
+    height: 250px;
+}
+
+.container .body .box1 div p {
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.container .body .box1 div p b {
+    color: white;
+}
+
+.container .body .box2 .div2 {
+    display: flex;
+    box-pack: justify;
+    justify-content: space-between;
+    box-orient: horizontal;
+    box-direction: normal;
+    flex-flow: row wrap;
+}
+
+.container .body .box2 .div2 .text_p {
+    display: flex;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    width: 43.77%;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.container .body .box2 .div2 .text_p img {
+    width: 100%;
+}
+
+.container .body .box2 .div2 .text_p p {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.container .body .box2 .div2 .text_p .div2_p {
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+.container .body .box2 .p3 {
+    display: flex;
+    margin: 40px;
+    border: 2px solid #e3e3e3;
+    padding: 20px;
+}
+
+.container .body .box3 div {
+    display: flex;
+    box-pack: center;
+    justify-content: center;
+    box-orient: horizontal;
+    box-direction: normal;
+    flex-flow: row wrap;
+}
+
+.container .body .box3 div div {
+    margin: 20px;
+    width: 400px;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    padding: 10px 10px 50px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px gray;
+}
+
+.container .body .box3 div div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .body .box3 div div h2 {
+    text-transform: uppercase;
+    margin: auto;
+    padding: 40px 0 20px 0;
+}
+
+.container .body .box3 div div p {
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+}
+
+.container .body .box4 div {
+    display: flex;
+    box-pack: center;
+    justify-content: center;
+    box-orient: horizontal;
+    box-direction: normal;
+    flex-flow: row wrap;
+}
+
+.container .body .box4 div div {
+    margin: 20px;
+    width: 500px;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    padding: 10px 10px 50px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px gray;
+}
+
+.container .body .box4 div div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .body .box4 div div h2 {
+    text-transform: uppercase;
+    margin: auto;
+    padding: 40px 0 20px 0;
+}
+
+.container .body .box4 div div p {
+    width: 70%;
+    margin: auto;
+}
+
+.container .foot {
+    padding: 10px 0 20px 0;
+    background-color: #e3e3e3;
+    text-align: center;
+    word-spacing: 30px;
+    margin-top: 40px;
+    letter-spacing: 6px;
+}
+
+.container .foot p {
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.container .foot i {
+    line-height: 30px;
+    color: #999;
+}
+
+@media screen and (max-width: 425px) {
+    .container .menu i {
+        font-size: 25px;
+        margin: 15px;
+    }
+    .container .menu ul {
+        margin: 10px;
+    }
+    .container .menu ul li {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .container .head .box {
+        font-size: 10px;
+        margin: 10px;
+        padding: 5px 5px;
+    }
+    .container .head .box img {
+        height: 100px;
+    }
+    .container .body .p {
+        font-size: 25px;
+    }
+    .container .body .p2 {
+        font-size: 25px;
+    }
+    .container .body .box1 div img {
+        height: 200px;
+    }
+    .container .body .box1 div p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container .body .box2 .div2 .text_p {
+        width: 45%;
+        margin: 10px;
+    }
+    .container .body .box2 .div2 .text_p p {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .container .body .box2 .div2 .text_p .div2_p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container .head .box {
+        font-size: 10px;
+        margin: 10px;
+    }
+    .container .head .box img {
+        height: 80px;
+    }
+    .container .head .box ul {
+        margin-left: 10px;
+        line-height: 20px;
+        padding: 15px 0 15px 11px;
+    }
+    .container .body .box2 .div2 .text_p {
+        width: 100%;
+    }
+    .container .body .box2 .p3 {
+        margin: 10px;
+        border: 2px solid #e3e3e3;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .container .foot {
+        font-size: 12px;
+    }
+}

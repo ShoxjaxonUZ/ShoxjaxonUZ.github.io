@@ -1,0 +1,68 @@
+body {
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.all {
+	margin-top: 100px;
+	width: 300px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	font-family: sans-serif;
+	box-shadow: 0px 0px 1px;
+	background-color: white;
+}
+.tepa {
+	background-color: #4767a0;
+	color: white;
+	/*display: flex;*/
+	border-radius: 10px 10px 0 0;
+	padding: 15px;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+img {
+	width: 25px;
+	height: 25px;
+	padding: 0 7px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-radius: 50%;
+}
+span {
+	color: #f25358;
+}
+form {
+	margin: 20px 0;
+}
+input {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 230px;
+	border: 1px solid #999;
+	outline: none;
+}
+button {
+	padding: 10px;
+	margin: 10px 0;
+	width: 250px;
+	border: 1px solid;
+	background-color: #f25358;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.past {
+	background-color: #f2f2f2;
+	color: gray;
+	border-radius: 0 0 10px 10px;
+	padding: 9px;
+	font-size: 14px;
+}
