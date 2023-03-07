@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 
-a{
+a {
     width: 150px;
     height: 45px;
     padding: 5px 5px 5px 5px;
@@ -29,23 +29,25 @@ a{
     text-align: center;
 }
 
-a:hover{
+a:hover {
     background: #fa4659;
     color: #fff;
     transition: 0.5s;
 }
 
-.sinf-1{
-    display: inline-block;
+.button {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 470px;    
 }
-.sinf-2{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    
+
+.sinf-1 {
+    border: 1px solid white;
+    padding-top: 8px;
+}
+
+.sinf-2 {
+    border: 1px solid white;
+    padding-top: 8px;
 }
 
 .pr {
