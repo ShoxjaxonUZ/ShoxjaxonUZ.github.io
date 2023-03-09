@@ -91,15 +91,13 @@
     }
     
     .box4 div div {
-        margin: 20px;
         width: 400px;
-        box-orient: vertical;
-        box-direction: normal;
-        flex-direction: column;
         padding: 10px 10px 50px 10px;
         border-radius: 10px;
         box-shadow: 0 0 6px gray;
-        box-shadow: 0 0 6px gray;
+        margin: 10px;
+        display: inline;
+        text-align: center;
     }
     
     .box4 div div img {
@@ -171,6 +169,8 @@
         align-items: center;
         transition: all 0.5s;
         position: relative;
+        margin-right: 35px;
+        margin-left: 35px;
     }
     
     .sanash .boxitem::before {
@@ -244,7 +244,7 @@
         }
         .sanash .boxitem::before {
             position: relative;
-            top: 100px;
+            top: 135px;
             left: 310px;
         }
     }
