@@ -106,7 +106,8 @@ img {
 }
 
 .linka {
-    margin-top: -5px;
+    margin-top: -10px;
+    margin-left: 11px;
 }
 
 .link h2 {
@@ -284,9 +285,6 @@ img {
     .card-info h2 {
         font-size: 15px;
     }
-    .link {
-        margin: 0;
-    }
 }
 
 @media (max-width:574px) {
@@ -361,6 +359,9 @@ img {
         width: 200px;
         height: 15px;
     }
+    .linka {
+        margin-left: 19px;
+    }
 }
 
 @media (max-width:395px) {
@@ -370,6 +371,9 @@ img {
     .progress {
         width: 160px;
         height: 15px;
+    }
+    .linka {
+        margin-left: 19px;
     }
 }
 
