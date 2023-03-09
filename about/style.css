@@ -1,203 +1,250 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-
-.asosiy1 {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(img.jpg);
-    background-attachment: fixed;
-    cursor: context-menu;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.matn1 {
-    margin-top: 70px;
-    margin-bottom: -180px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    color: #fa4659;
-    text-transform: uppercase;
-}
-
-.sass {
-    backdrop-filter: blur(10px);
-    width: 500px;
-    height: 400px;
-}
-
-header {
-    width: 100%;
-}
-
-.asosiy {
-    margin-top: 200px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.asosiy h1 {
-    font-size: 50px;
-    margin-bottom: 40px;
-}
-
-.asosiy a {
-    text-transform: uppercase;
-    width: 180px;
-    height: 50px;
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 25px;
-    border-radius: 100px;
-    border: 3px solid #fa4659;
-    background: transparent;
-    color: #fa4659;
-    text-decoration: none;
-    transition: all 0.5s;
-}
-
-.asosiy a:hover {
-    background: #fa4659;
-    color: #fff;
-    transition: 0.5s;
-}
-
-.p {
-    text-transform: uppercase;
-    font-size: 35px;
-    background-color: grey;
-    padding: 10px 0;
-    text-align: center;
-    font-weight: 900;
-    color: white;
-}
-
-.box4 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-orient: horizontal;
-    box-direction: normal;
-    flex-flow: row wrap;
-    text-decoration: none;
-}
-
-.box4 div div {
-    margin: 20px;
-    width: 400px;
-    box-orient: vertical;
-    box-direction: normal;
-    flex-direction: column;
-    padding: 10px 10px 50px 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 6px gray;
-    box-shadow: 0 0 6px gray;
-}
-
-.box4 div div img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.body .box4 div div h2 {
-    text-transform: uppercase;
-    margin: 0 10px 10px 10px;
-    padding: 40px 20px 20px 0;
-    text-decoration: none;
-}
-
-h2 {
-    margin: 25px 0 0 0;
-}
-
-.box4 div div p {
-    width: 70%;
-    margin: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-.pagination {
-    width: 100%;
-}
-
-.pagination {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.pagination>p {
-    margin: 40px;
-    background-color: transparent;
-    padding: 20px 25px;
-    border-radius: 50%;
-    border: 2px solid gray;
-}
-
-.pagination .active {
-    background-color: gray;
-    color: white;
-}
-
-.pagination p {
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .box4 div div {
-        margin: 20px;
-        width: 450px;
-        box-orient: vertical;
-        flex-direction: column;
-        padding: 10px 10px 50px 10px;
-        border-radius: 10px;
-        box-shadow: 0 0 6px gray;
-        box-shadow: 0 0 6px gray;
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
     }
-}
-
-@media (max-width:490px) {
-    .box4 div div {
-        margin: 20px;
-        width: 300px;
-        box-orient: vertical;
-        flex-direction: column;
-        padding: 10px 10px 50px 10px;
-        border-radius: 10px;
-        box-shadow: 0 0 6px gray;
-        box-shadow: 0 0 6px gray;
-    }
-    .asosiy a {
-        width: 200px;
-        display: inline-block;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-    }
+    
     .asosiy1 {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(img.jpg);
+        background-attachment: fixed;
+        cursor: context-menu;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 10px 0 10px;
     }
-    .matn {
-        margin-top: 50px;
+    
+    .matn1 {
+        margin-top: 70px;
         margin-bottom: -180px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        color: #fa4659;
+        text-transform: uppercase;
     }
+    
     .sass {
         backdrop-filter: blur(10px);
         width: 500px;
-        height: 500px;
+        height: 400px;
     }
-}
+    
+    header {
+        width: 100%;
+    }
+    
+    .asosiy {
+        margin-top: 200px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .asosiy h1 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .asosiy a {
+        text-transform: uppercase;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+        border-radius: 100px;
+        border: 3px solid #fa4659;
+        background: transparent;
+        color: #fa4659;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+    
+    .asosiy a:hover {
+        background: #fa4659;
+        color: #fff;
+        transition: 0.5s;
+    }
+    
+    .p {
+        text-transform: uppercase;
+        font-size: 70px;
+        padding: 10px 0;
+        text-align: center;
+        font-weight: 900;
+        color: white;
+        font-family: "Lovelo Line";
+        margin: auto;
+        text-shadow: 0 0 15px rgb(94, 23, 235), 0 0 25px rgb(94, 23, 235);
+    }
+    
+    .box4 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-orient: horizontal;
+        box-direction: normal;
+        flex-flow: row wrap;
+        text-decoration: none;
+    }
+    
+    .box4 div div {
+        margin: 20px;
+        width: 400px;
+        box-orient: vertical;
+        box-direction: normal;
+        flex-direction: column;
+        padding: 10px 10px 50px 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 6px gray;
+        box-shadow: 0 0 6px gray;
+    }
+    
+    .box4 div div img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    img {
+        background-size: cover;
+    }
+    
+    .body .box4 div div h2 {
+        text-transform: uppercase;
+        margin: 0 10px 10px 10px;
+        padding: 40px 20px 20px 0;
+        text-decoration: none;
+    }
+    
+    h2 {
+        margin: 25px 0 0 0;
+        text-transform: uppercase;
+    }
+    
+    .box4 div div p {
+        width: 70%;
+        margin: auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .pagination {
+        width: 100%;
+    }
+    
+    .pagination {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .pagination>p {
+        margin: 40px;
+        background-color: transparent;
+        padding: 20px 25px;
+        border-radius: 50%;
+        border: 2px solid gray;
+    }
+    
+    .pagination .active {
+        background-color: gray;
+        color: white;
+    }
+    
+    .pagination p {
+        cursor: pointer;
+    }
+    
+    .sanash {
+        position: relative;
+        counter-reset: sanash;
+    }
+    
+    .boxitem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+        position: relative;
+    }
+    
+    .sanash .boxitem::before {
+        width: 20px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.5);
+        color: black;
+        counter-increment: sanash;
+        content: "# " counter(sanash);
+        transition: all 0.5s;
+        font-size: 14px;
+        position: relative;
+        top: 130px;
+        left: 400px;
+    }
+    
+    @media (max-width: 768px) {
+        .box4 div div {
+            margin: 20px;
+            width: 450px;
+            box-orient: vertical;
+            flex-direction: column;
+            padding: 10px 10px 50px 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 6px gray;
+            box-shadow: 0 0 6px gray;
+        }
+        .sanash .boxitem::before {
+            position: relative;
+            top: 130px;
+            left: 450px;
+        }
+    }
+    
+    @media (max-width:490px) {
+        .box4 div div {
+            margin: 20px;
+            width: 300px;
+            box-orient: vertical;
+            flex-direction: column;
+            padding: 10px 10px 50px 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 6px gray;
+            box-shadow: 0 0 6px gray;
+        }
+        .asosiy a {
+            width: 200px;
+            display: inline-block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        .asosiy1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px 0 10px;
+        }
+        .matn {
+            margin-top: 50px;
+            margin-bottom: -180px;
+        }
+        .sass {
+            backdrop-filter: blur(10px);
+            width: 500px;
+            height: 520px;
+        }
+        .sanash .boxitem::before {
+            position: relative;
+            top: 100px;
+            left: 310px;
+        }
+    }
