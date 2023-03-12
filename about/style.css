@@ -144,14 +144,17 @@
     .pagination>p {
         margin: 40px;
         background-color: transparent;
-        padding: 20px 25px;
+        padding: 15px 20px;
         border-radius: 50%;
-        border: 2px solid gray;
+        border: 2px solid #fa4659;
     }
     
     .pagination .active {
-        background-color: gray;
+        background-color: #fa4659;
         color: white;
+        outline: 3px solid white;
+        outline-offset: -10px;
+        position: relative;
     }
     
     .pagination p {
@@ -182,12 +185,12 @@
         transform: scale(1.5);
         color: black;
         counter-increment: sanash;
-        content: "# " counter(sanash);
+        content: "#" counter(sanash);
         transition: all 0.5s;
         font-size: 14px;
         position: relative;
         top: 130px;
-        left: 400px;
+        left: 390px;
     }
     
     @media (max-width: 768px) {
