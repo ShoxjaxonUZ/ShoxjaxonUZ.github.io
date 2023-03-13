@@ -59,6 +59,7 @@ nav {
     padding: 19px 28px;
     text-decoration: none;
     transition: all 0.3s;
+    border: 1px solid #9088F0;
 }
 
 .a2:hover {
