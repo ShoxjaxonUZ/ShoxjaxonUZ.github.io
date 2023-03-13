@@ -26,14 +26,17 @@ nav {
 }
 
 .a1 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
     color: black;
+    height: 20px;
 }
 
 .p1 {
+    font-family: 'Roboto';
+    font-size: 15px;
     padding-top: 90px;
 }
 
@@ -55,6 +58,12 @@ nav {
     color: white;
     padding: 19px 28px;
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.a2:hover {
+    background-color: white;
+    color: #9088F0;
 }
 
 .savol {
@@ -88,6 +97,12 @@ nav {
     position: absolute;
     top: 110px;
     right: 77px;
+    transition: all 15s;
+}
+
+.img1:hover {
+    z-index: 9;
+    transition: all 15s;
 }
 
 .img2 {
