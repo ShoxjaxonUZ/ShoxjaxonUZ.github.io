@@ -158,7 +158,6 @@ a {
 
 .section2 {
     height: 676px;
-    width: 1440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +245,6 @@ a {
 
 .section3 {
     height: 849px;
-    width: 1440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,7 +511,6 @@ a {
 
 .section6 {
     height: 855px;
-    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -576,7 +573,6 @@ a {
 
 .section7 {
     height: 920px;
-    width: 1440px;
 }
 
 .buttons {
@@ -643,8 +639,8 @@ a {
 }
 
 .section8 {
+    width: 100%;
     height: 594px;
-    width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -775,4 +771,48 @@ li {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+    .section1 {
+        display: flex;
+        justify-content: center;
+    }
+    .img {
+        height: 500px;
+        width: 500px;
+    }
+    .header {
+        width: 100%;
+    }
+    .section1 {
+        width: 100%;
+    }
+    .section2 {
+        width: 100%;
+    }
+    .section3 {
+        width: 100%;
+    }
+    .section4 {
+        width: 100%;
+    }
+    .section5 {
+        width: 100%;
+    }
+    .section6 {
+        width: 100%;
+    }
+    .section7 {
+        width: 100%;
+    }
+    .section8 {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
 }
