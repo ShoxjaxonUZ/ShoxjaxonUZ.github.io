@@ -1,0 +1,306 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+        background-color: #FCF5FD;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .p1 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 225px;
+        height: 352px;
+        border-radius: 25px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        overflow: hidden;
+        transition: all 3s;
+        position: relative;
+        background-position: 0 -360px;
+    }
+    
+    .box1 .rasm1 {
+        width: 170px;
+        height: 170px;
+        background: url('qulupnay.png') no-repeat;
+        background-size: 100px;
+        background-position: 60px;
+        position: relative;
+        z-index: 9999999;
+    }
+    
+    .box1:hover {
+        background: url('qulupnay_rangi.png') no-repeat center;
+        background-position: bottom;
+        transition: all 1.5s;
+    }
+    
+    .box2 .rasm2 {
+        width: 170px;
+        height: 170px;
+        background: url('malina.png') no-repeat;
+        background-size: 100px;
+        background-position: 60px;
+        position: relative;
+        z-index: 9999999;
+        mix-blend-mode: multiply;
+        filter: contrast(1.2);
+    }
+    
+    .box2:hover {
+        background: url('malina_rangi.png') no-repeat center;
+        background-position: bottom;
+        transition: all 1.5s;
+    }
+    
+    .box3 .rasm3 {
+        width: 170px;
+        height: 170px;
+        background: url('olma.png') no-repeat;
+        background-size: 100px;
+        background-position: 60px;
+        position: relative;
+        z-index: 9999999;
+    }
+    
+    .box3:hover {
+        background: url('olma_rangi.png') no-repeat center;
+        background-position: bottom;
+        transition: all 1.5s;
+    }
+    
+    .box4 .rasm4 {
+        width: 170px;
+        height: 170px;
+        background: url('banana.png') no-repeat;
+        background-size: 100px;
+        background-position: 60px;
+        position: relative;
+        z-index: 9999999;
+        mix-blend-mode: multiply;
+        filter: contrast(1.3);
+    }
+    
+    .box4:hover {
+        background: url('banan_rangi.png') no-repeat center;
+        background-position: bottom;
+        transition: all 1.5s;
+    }
+    
+    .p2 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #99A0A4;
+        position: relative;
+        bottom: -30px;
+        transition: all 2s;
+    }
+    
+    .p3,
+    .p4,
+    .p5,
+    .p6 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        color: #99A0A4;
+        position: absolute;
+        bottom: 48px;
+        left: 85px;
+        transition: all 2s;
+    }
+    
+    span {
+        position: relative;
+        bottom: -20px;
+        transition: all 2s;
+    }
+    
+    .box1:hover>* {
+        color: white;
+    }
+    
+    .box2:hover>* {
+        color: white;
+    }
+    
+    .box3:hover>* {
+        color: white;
+    }
+    
+    .box4:hover>* {
+        color: white;
+    }
+    
+    .box1:hover .wrapper {
+        width: 1000px;
+        height: 1025px;
+        position: absolute;
+        top: -109%;
+        left: 50%;
+        margin-left: -500px;
+        margin-top: -500px;
+        border-radius: 35%;
+        background: #FCF5FD;
+        animation: wave 15s infinite linear;
+    }
+    
+    .box1:hover .wave {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    
+    @keyframes wave {
+        from {
+            transform: rotate(0deg);
+        }
+        from {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .box2:hover .wrapper {
+        width: 1000px;
+        height: 1025px;
+        position: absolute;
+        top: -109%;
+        left: 50%;
+        margin-left: -500px;
+        margin-top: -500px;
+        border-radius: 35%;
+        background: #FCF5FD;
+        animation: wave 15s infinite linear;
+    }
+    
+    .box2:hover .wave {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    
+    @keyframes wave {
+        from {
+            transform: rotate(0deg);
+        }
+        from {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .box3:hover .wrapper {
+        width: 1000px;
+        height: 1025px;
+        position: absolute;
+        top: -109%;
+        left: 50%;
+        margin-left: -500px;
+        margin-top: -500px;
+        border-radius: 35%;
+        background: #FCF5FD;
+        animation: wave 15s infinite linear;
+    }
+    
+    .box3:hover .wave {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    
+    @keyframes wave {
+        from {
+            transform: rotate(0deg);
+        }
+        from {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .box4:hover .wrapper {
+        width: 1000px;
+        height: 1025px;
+        position: absolute;
+        top: -109%;
+        left: 50%;
+        margin-left: -500px;
+        margin-top: -500px;
+        border-radius: 35%;
+        background: #FCF5FD;
+        animation: wave 15s infinite linear;
+    }
+    
+    .box4:hover .wave {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    
+    @keyframes wave {
+        from {
+            transform: rotate(0deg);
+        }
+        from {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @media (max-width:1024) {
+        .box1,
+        .box2,
+        .box3,
+        .box4 {
+            display: -webkit-inline-box;
+        }
+    }

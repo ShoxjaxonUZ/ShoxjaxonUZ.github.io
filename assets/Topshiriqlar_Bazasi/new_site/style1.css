@@ -1,0 +1,406 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+
+body{
+  background: url(./img/Gradient-color.png) no-repeat center;
+  background-color: #e5e5e5;
+}
+header{
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bg1{
+  position: absolute;
+  top: -370px;
+  left: 0;
+}
+
+.bg2{
+  position: absolute;
+  top: -98px;
+  right: 0;
+}
+
+.content{
+  height: 844px;
+  width: 1333px;
+  position: relative;
+  z-index: 333;
+  border-radius: 33px;
+  border: 16px solid #FFFFFF3D;
+  backdrop-filter: blur(11px);
+}
+nav{
+  width: calc(1333px - (78px * 2));
+  border-bottom: 2px solid #fff;
+  margin: 0 auto;
+}
+
+.navnar{
+  width: 623px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #615F5F;
+  margin-bottom: 24px;
+  padding-top: 43px;
+}
+
+.logo span{
+  color: #3672E9;
+
+}
+
+.navnar a{
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3672E9;
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 10px;
+  transition: all 0.01s;
+}
+.navnar a:hover{
+  border-bottom: 4px solid#3672E9;
+  color: #f00;
+}
+.navnar li{
+  list-style-type: none;
+}
+
+.activ{
+  border-bottom: 4px solid#3672E9;
+}
+.search{
+  position: absolute;
+  right: 96px;
+  top: 0;
+  height: 54px;
+  width: 249px;
+  padding: 0 78px;
+  margin: 45px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_img{
+  margin-right: 21px;
+}
+
+.search input{
+  height: 23px;
+  width: 109px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 40px;
+}
+.body{
+  height: 362.3399963378906px;
+  width: 1294.8699951171875px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: -40px;
+}
+
+
+aside{
+  height: 258px;
+  width: 78px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 0 35px 0;
+  position: relative;
+  right: 20px;
+  background: radial-gradient(100% 249.45% at 0% 2.78%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+
+}
+aside img{
+  cursor: pointer;
+  padding: 10px;
+}
+
+aside img:hover{
+  transform: scale(1.3);
+}
+
+.avatar_ctn{
+  height: 362px;
+  width: 764px;
+  display: flex;
+  border-radius: 33px;
+  margin-right: 45px;
+  margin-bottom: 35px;
+}
+
+.ctn_box h1{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.235em;
+  text-align: left;
+  padding: 62px 0 37px 0;
+  color: #615F5F;
+}
+
+.ctn_desc{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.015em;
+  color: #615F5F;
+  text-align: left;
+
+}
+.ctn_desc2{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #615F5F;
+  padding: 6px 0 24px 0;
+}
+
+.ctn_box button{
+  height: 59px;
+  width: 186px;
+  border-radius: 15px;
+  background: #3672E9;
+  box-shadow: 0px 20px 50px 0px #3672E969;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.ctn_box button:hover{
+  background: #fff;
+  color: #3672E9;
+}
+.c_box{
+  width: 369.8699951171875px;
+}
+
+.c{
+  height: 167.33999633789062px;
+  width: 369.8699951171875px;
+  border: 1px solid #FFFFFF3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: radial-gradient(100% 249.45% at 0% 2.78%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 3s;
+}
+
+.c:hover {
+  transform: rotateX(360deg);
+}
+
+.c img{
+  height: 123.60655975341797px;
+  width: 123.60655975341797px;
+  padding: 22px;
+  border-radius: 19.016393661499023px;
+  cursor: pointer;
+}
+
+.c:nth-child(1){
+  margin-bottom: 27px;
+  margin-top: 16px;
+}
+
+.c_desc h1{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #615F5F;
+  margin-bottom: 17px;
+  }
+
+  .c_desc p{
+    font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #474747;
+  margin-bottom: 8px;
+}
+
+.c_desc span{
+  display: inline-block;
+  height: 16.600000381469727px;
+  width: 32px;
+  left: 1149px;
+  top: 514px;
+  border-radius: 3.799999952316284px;
+  background: #F2C655;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.c_desc img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 19.227256774902344px;
+  width: 15.213114738464355px;
+}
+footer{
+  height: 275px;
+  width: 1178px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer_desc h1{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #615F5F;
+  margin-bottom: 36px;
+  padding-top: 34px;
+}
+
+.footer_desc div{
+  display: flex;
+  margin-bottom: 39px;
+}
+.footer_desc div p:hover{
+  color: #000;
+}
+
+.footer_desc div img{
+  margin-right: 29px;
+}
+
+.footer_desc div p{
+  cursor: pointer;
+  color: #615F5F99;
+
+}
+
+.footer_desc div p:nth-child(1){
+  color: #615F5F;
+}
+
+
+.games{
+  display: flex;
+  margin-top: 80px;
+}
+.g_col{
+  height: 240px;
+  width: 245px;
+  left: 819px;
+  cursor: pointer;
+  top: 644px;
+  border-radius: 20px;
+  background: radial-gradient(100% 249.45% at 0% 2.78%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+border: 1px solid #FFFFFF3D;
+  transition: all 3s;
+}
+
+.g_col:hover {
+  transform: rotateY(360deg);
+}
+
+.g_col:nth-child(2){
+  margin: 0 30px;
+}
+.g_col img{
+padding: 10px;
+
+}
+
+.g_col h1{
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #615F5F;
+
+}
+
+.g_col h1{
+  margin-bottom: 7px;
+}
+
+.g_col div{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g_col h1, p, div{
+  margin-left: 10px;
+}
+
+.g_col div img{
+  height: 11.25px;
+  width: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.g_col:hover {
+  background-color: #e5e5e5;
+}
