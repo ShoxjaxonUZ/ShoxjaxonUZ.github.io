@@ -30,7 +30,7 @@
                 </div>
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#home" class="nav_link active">Home</a>
+                        <a href="#home" class="nav_link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav_link">About</a>
@@ -351,14 +351,14 @@
             <div class="contact__container bd-grid">
                 <form action="" class="contact__form" id="contact-form">
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input" id="contact-name">
-                        <input type="mail" placeholder="Email" class="contact__input" id="contact-email">
+                        <input type="text" name="user_name" placeholder="Name" class="contact__input" id="contact-name">
+                        <input type="mail" name="user_email" placeholder="Email" class="contact__input" id="contact-email">
                     </div>
 
-                    <input type="text" placeholder="Project" class="contact__input" id="contact-project">
+                    <input type="text" placeholder="Project" name="user_project" class="contact__input" id="contact-project">
 
-                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input" id="contact-project"></textarea>
-                    <buttom class="button contact__button">Send Me</buttom>
+                    <textarea name="user_message" id="contact-message" cols="0" rows="10" placeholder="Message" class="contact__input" id="contact-project"></textarea>
+                    <button type="submit" class="button contact__button">Send Me</button>
                 </form>
                 <div>
                     <div class="contact__info">
@@ -391,6 +391,7 @@
     </footer>
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
 
 </html>
