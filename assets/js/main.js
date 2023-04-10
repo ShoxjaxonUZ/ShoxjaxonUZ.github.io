@@ -28,19 +28,18 @@ const sections = document.querySelectorAll('section[id]')
 window.addEventListener('scroll', scrollActive)
 
 function scrollActive() {
-    const scrollY = window.pageYOffset
+    const scrolY = window.pageYOffset
 
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50
-        sectionId = current.getAttribute('id')
+        var sectionId = current.getAttribute('id')
 
-        if (scrolY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        if (scrolY > sectionTop && scrolY <= sectionTop + sectionHeight) {
             document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active')
         } else {
             document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active')
-
         }
 
     })
@@ -49,37 +48,20 @@ function scrollActive() {
 const contactForm = document.getElementById('contact-form'),
     contactName = document.getElementById('contact-name'),
     contactEmail = document.getElementById('contact-email'),
-    contactProject = document.getElementById('contact-project'),
-    contactMessage = document.getElementById('contact-message');
+    contactProject = document.getElementById('contact-project');
 
 const sendEmail = (e) => {
     e.preventDefault()
-
-    // Check if the field has a value
-    if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
-        // Add and remove color
-        contactMessage.classList.remove('color-blue')
-        contactMessage.classList.add('color-red')
-
-        // Show message
-        contactMessage.textContent = 'Write all the input fields 📧'
-    } else {
+    if (!(contactName.value === '' ||
+            contactEmail.value === '' ||
+            contactProject.value === '')) {
         // serviceID - templateID - #form - publicKey
         emailjs.sendForm('service_b7m8f6q', 'template_nxe53la', '#contact-form', 'vO_KhRCIOrb5_IrnA')
             .then(() => {
-                // Show message and add color
-                contactMessage.classList.add('color-blue')
-                contactMessage.textContent = 'Message sent ✅'
-
-                // Remove message after five seconds
-                setTimeout(() => {
-                    contactMessage.textContent = ''
-                }, 5000)
+                alert("Ma'lumotlar yuborildi")
             }, (error) => {
                 alert('OOPS! SOMETHING HAS FAILED...', error)
             })
-
-        // To clear the input field
         contactName.value = ''
         contactEmail.value = ''
         contactProject.value = ''
