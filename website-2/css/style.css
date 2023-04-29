@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #ccc;
+    /* background: #f5f5f5; */
+}
+
+.all {
+    width: 100%;
+    height: 4102px;
+    background: #fff;
+}
+
+
+/* Home start */
+
+.home {
+    width: 100%;
+    height: 840px;
+    position: relative;
+    background: url("../img/Rectangle\ 256.png") no-repeat center;
+    background-position: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    margin: 58px 0 50px 358px;
+}
+
+.h-p {
+    width: 374px;
+    height: 64px;
+    border-radius: 59px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-h2 {
+    font-size: 144px;
+    font-weight: 900;
+    line-height: 135px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 17px 0 100px 0;
+}
+
+.h-btn {
+    width: 180px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 0 0 0 510px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F9F9F9 100%);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #48924F;
+    cursor: pointer;
+}
+
+
+/* Home end */
+
+
+/* Services start */
+
+.services {
+    width: 100%;
+    height: 910px;
+    position: relative;
+    padding: 70px 0 0 0;
+}
+
+.ser-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+}
+
+.s-img {
+    position: absolute;
+    top: 50px;
+    left: 455px;
+}
+
+.ser-box {
+    height: 504px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin: 50px 0 0 0;
+}
+
+.s-box {
+    width: 385px;
+    height: 504px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+}
+
+.s-h2 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D4D14;
+    margin: 30px 0 10px 30px;
+}
+
+.s-p {
+    width: 325px;
+    height: 120px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D4D14;
+    margin: 0 0 0 30px;
+}
+
+.s-btn {
+    width: 180px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 50px 0 0 510px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #48924F;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 30px rgba(50, 175, 100, 0.15);
+}
+
+
+/* Services end */
+
+
+/* About Us strat */
+
+.about {
+    width: 100%;
+    height: 878px;
+    position: relative;
+    background: url("../img/Rectangle\ 259.png") no-repeat;
+    background-position: bottom;
+}
+
+.abo-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+}
+
+.a-img {
+    position: absolute;
+    top: 45px;
+    left: 690px;
+}
+
+.abo-box {
+    height: 408px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 204px 0 0 0;
+}
+
+.a-p {
+    width: 360px;
+    height: 408px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* About Us end */
+
+
+/* Testimonials strat */
+
+.testimonials {
+    width: 100%;
+    height: 797px;
+    position: relative;
+    padding: 70px 0 0 0;
+}
+
+.tes-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+    margin: 0 0 70px 0;
+}
+
+.tes-box {
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.t-help {
+    margin: 45px 0 0 0;
+}
+
+.t-box {
+    width: 577px;
+    height: 233px;
+    background: #FFFFFF;
+    border: 1px solid #6CB981;
+    border-radius: 40px;
+    display: flex;
+    padding: 30px;
+}
+
+.tes-img {
+    width: 80px;
+    height: 80px;
+}
+
+.t-b-text {
+    margin: 0 0 0 14px;
+}
+
+.t-h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6CB981;
+}
+
+.t-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D4C14;
+    margin: 13px 0 10px 0;
+}
+
+
+/* Testimonials end */
+
+
+/* Contact US start */
+
+.contact {
+    width: 100%;
+    height: 532px;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+
+.con-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+    margin: 0 0 70px 0;
+}
+
+.c-links {
+    width: 788px;
+    height: 266px;
+    display: flex;
+    margin: auto;
+}
+
+.c-form {
+    width: 374px;
+    height: 266px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 0 0 110px; */
+}
+
+.c-inp {
+    width: 374px;
+    height: 56px;
+    border-radius: 61px;
+    border: none;
+    outline: none;
+    padding: 0 0 0 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #fff;
+    background: #9FDEA9;
+}
+
+.c-sub {
+    width: 168px;
+    height: 56px;
+    border-radius: 61px;
+    border: 3px solid #4DB96B;
+    outline: none;
+    background: #fff;
+    margin: auto;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+form input[type="submit"] {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #6CB981;
+}
+
+.c-link {
+    margin: 32px 0 0 100px;
+}
+
+.c-gmail {
+    width: 147px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.c-tell {
+    width: 144px;
+    height: 24px;
+    display: flex;
+    margin: 30px 0 0 0;
+    gap: 20px;
+}
+
+.c-cards {
+    width: 314px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+    margin: 30px 0 0 0;
+}
+
+.c-c-box {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* .c-g-img {
+    width: 20px;
+    height: 16px;
+}
+
+.c-t-img {
+    width: 17.963769912719727px;
+    height: 17.963674545288086px;
+}
+
+.c-c-img {
+    width: 14px;
+    height: 19.470001220703125px;
+} */
+
+.c-h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+}
+
+
+/* Contact US end*/
