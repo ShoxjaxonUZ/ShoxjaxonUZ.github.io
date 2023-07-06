@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+    /* align-items: center; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.logoimg {
+    display: flex;
+    margin: 36px 0 0 0px;
+    gap: 10px;
+}
+
+.maydon {
+    margin-top: 120px;
+    text-align: left;
+}
+
+.t1 {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.t2 {
+    color: var(--neutral-7-o, #757575);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+.t3 {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.input1 {
+    display: flex;
+    padding: 12px 134px 12px 24px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid var(--neutral-5-o, #C2C2C2);
+}
+
+.chec {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 0 44px 0;
+    justify-content: space-between;
+}
+
+.input2 {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--neutral-5-o, #C2C2C2);
+}
+
+.t4 {
+    color: var(--neutral-7-o, #757575);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.t5 {
+    color: #3B77D7;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t6 {
+    color: var(--neutral-1-o, #FFF);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 16px;
+    background: #3B77D7;
+    padding: 12px 134.5px;
+    margin-bottom: 16px;
+}
+
+.t7 {
+    color: var(--neutral-7-o, #757575);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 70px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--neutral-5-o, #C2C2C2);
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.t8 {
+    color: #757575;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.t9 {
+    color: #3B77D7;
+}
+
+.rasm {
+    margin-top: 30px;
+    width: 576.563px;
+    height: 587.012px;
+    background: url('img/img1.png'), lightgray 50% / cover no-repeat;
+    background-size: cover;
+}
+
+
+/* .conta {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+} */
+
+@media screen and (min-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .conta {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+        background-color: #fff;
+        z-index: 9999;
+        position: relative;
+        height: 100%;
+        padding-right: 32px;
+    }
+    .logoimg {
+        margin: 32px 0 0 0;
+    }
+    .rasm {
+        width: 600.4px;
+        height: 1024px;
+        margin-top: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: -225px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .conta {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        background-color: #fff;
+        z-index: 9999;
+        position: relative;
+        height: 100%;
+        padding-right: 200px;
+        justify-content: center;
+    }
+    .rasm {
+        width: 1107px;
+        height: 1063px;
+    }
+}
