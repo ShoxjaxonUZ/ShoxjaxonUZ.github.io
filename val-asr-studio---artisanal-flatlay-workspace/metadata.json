@@ -1,6 +1,0 @@
-{
-  "name": "Val Asr Studio - Artisanal Flatlay Workspace",
-  "description": "An interactive flat-lay workstation and quote designer with deckled-edge papers, tactile linens, raw shadows, calligraphy tools, and dried flowers.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
